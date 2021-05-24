@@ -1,0 +1,61 @@
+<body>
+ <center>
+<div class="placement">
+<canvas id="my-Canvas" width="500px" height="500px" ></canvas>
+</div>
+<div class="updownArrow"><button id="forward">Forward (up arrow key)</button></div>
+<div class="leftRightArrow">
+    <button id="kick" style="margin-right: 5px;">Kick (left arrow key)</button>
+    <button id="punch" style="margin-left: 5px;">Punch (right arrow key)</button>
+</div>
+<div class="updownArrow"><button id="block">Block (down arrow key)</button></div>
+</center>
+</body>
+
+<head>
+    <title>martial_arts</title>
+    <script type="text/javascript" src="main.js"></script>
+    <style>
+        body{
+            background-image: url('images/bg.jfif');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        .placement{
+            border: 2px dotted rgb(255, 255, 255) ;
+            background-image: url('images/background.jpg');
+            background-size: contain;
+            background-repeat:no-repeat;
+            width:825px;
+            height: 500px;
+            background-color: rgb(226, 226, 226);
+        }
+        .updownArrow{
+            width:825px;
+            text-align: center;
+            padding: 10px;
+        }
+        .leftRightArrow{
+            width:825px;
+            text-align: center;
+        }
+
+        #kick{
+            color: black;
+            background-color: inherit;
+        }
+        #punch{
+            color: black;
+            background-color: inherit;
+        }
+        #forward{
+            color: black;
+            background-color: inherit;
+        }
+        #block{
+            color: black;
+            background-color: inherit;
+        }
+    </style>
+</head>
